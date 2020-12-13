@@ -1,0 +1,47 @@
+.global-nav {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  background-color: #003366;
+}
+
+.nav-item i {
+  display: block;
+  font-size: 24px;
+}
+.nav-item a span {
+  display: block;
+  font-size: 10px;
+}
+
+.nav-list {
+  display: table;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+.nav-item {
+  display: table-cell;
+  padding: 4px 0px;
+}
+
+.nav-item:hover {
+  background-color: #1e88e5;
+  transition:all 0.3s;
+}
+
+.nav-list {
+  table-layout: fixed;
+  width: 100%;
+}
+
+.nav-list {
+  border-collapse: collapse;
+}
+.nav-item {
+  border: solid 1px #1e88e5;
+}
+
+.footer {
+  margin-bottom: 48px;
+}
