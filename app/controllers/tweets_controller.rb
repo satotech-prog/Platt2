@@ -3,9 +3,6 @@ class TweetsController < ApplicationController
   def index
     @tweets = Tweet.all
   end
-<<<<<<< Updated upstream
-  
-=======
 
   def new
     @tweet = Tweet.new
@@ -25,5 +22,5 @@ class TweetsController < ApplicationController
   def tweet_params
     params.require(:tweet).permit(:title, :exposition, :image)#.merge(user_id: current_user.id)
   end
->>>>>>> Stashed changes
+
 end
