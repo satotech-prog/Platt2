@@ -1,0 +1,17 @@
+<header class="header">
+  <div class="header2">
+    <h1 class="grid-1"><a href="/">Platt2</a></h1>
+    <% if user_signed_in? %>
+       <div class="user_glovel">
+          <div class="user_nav">
+            <%= link_to current_user.nickname, "/users/#{current_user.id}", class: "post" %>
+          </div>
+        <% else %>
+          <div class="user_nav2">
+            <%= link_to "ログイン", new_user_session_path, class: "post" %>
+            <%= link_to "新規登録", new_user_registration_path, class: "post" %>
+          </div>
+        </div>
+        <% end %>
+  </div>
+</header>

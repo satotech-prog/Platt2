@@ -1,13 +1,14 @@
-
-
 <h1>モデル</h1>
 <div >
   <% @tweets.each do |tweet| %>
-  <div >
+  <div>
   <%= tweet.title %>
   </div>
-  <div >
-  <%= tweet.exposition %>
+  <div>
+  <%= tweet.user.name %>
+  </div>
+  <div>
+  <%= image_tag tweet.image, class: 'tweet-img' if tweet.image.attached? %>
   </div>
   <% end %>
 </div>

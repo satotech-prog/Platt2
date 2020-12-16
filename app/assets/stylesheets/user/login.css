@@ -1,0 +1,20 @@
+.login-btn {
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.login-red-btn {
+  width: 100%;
+  background-color: #003366;
+  border: 1px solid #003366;
+  color: #fff;
+  line-height: 48px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.login-red-btn:hover {
+  background-color: #1e88e5;
+  transition:all 0.3s;
+}
