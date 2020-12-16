@@ -5,7 +5,7 @@
   <%= tweet.title %>
   </div>
   <div>
-  <%# tweet.user.name %>
+  <%= tweet.user.name %>
   </div>
   <div>
   <%= image_tag tweet.image, class: 'tweet-img' if tweet.image.attached? %>

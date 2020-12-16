@@ -1,0 +1,65 @@
+.header {
+  position: fixed;
+  background-color: #003366;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 5;
+  height: 65px;
+}
+
+.header2 {
+  position: relative;
+  display: flex;
+}
+
+.grid-1 {
+  font-size: 30px;
+  line-height: auto;
+  float: left;
+  margin: 14px;
+}
+
+.grid-1 a {
+  display: block;
+  color: aquamarine;
+  text-decoration: none;
+}
+
+.user_glovel {
+ float: right;
+}
+
+.user_nav {
+  float: right;
+  font-size: 25px;
+  margin: 14px;
+  background-color: aquamarine;
+}
+
+.user_nav2 {
+  text-align: center;
+  font-size: 25px;
+  margin: 14px;
+  background-color: aquamarine;
+}
+
+ a.post {
+  width: auto;
+  text-decoration: none;
+  margin: 5px;
+  padding: 10px;
+  color: #003366;
+}
+
+.contens_row {
+  width: 100%;
+  background-color: black;
+}
+
+.container {
+  width: 50%;
+  background-color: black;
+}
+
