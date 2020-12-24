@@ -1,11 +1,12 @@
-<h1>モデル</h1>
-<div >
+<%= render "shared/header" %>
+
+<div class="type1">
   <% @tweets.each do |tweet| %>
   <div>
   <%= tweet.title %>
   </div>
   <div>
-  <%= tweet.user.name %>
+  <%# tweet.user.name %>
   </div>
   <div>
   <%= image_tag tweet.image, class: 'tweet-img' if tweet.image.attached? %>
